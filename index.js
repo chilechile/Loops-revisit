@@ -20,7 +20,13 @@ evenPrint(13) => 2,4,6,8,10,12
 
 function evenPrint(number){
   //CODE BELOW HERE
+function evenPrint(number){
+for (var i = 0; i < 10; i += 2) {
+  ourArray.push(i);
+}
 
+console.log(ourArray);
+}
 
   //CODE ABOVE HERE
 }
@@ -53,7 +59,13 @@ oddPrint(12) => 1,3,5,7,9,11
 
 function oddPrint(number){
   //CODE BELOW HERE
+function oddPrint(number){
+for (var i = 1; i < 10; i += 2) {
+  myArray.push(i);
+}
+ 
 
+}
 
   //CODE ABOVE HERE
 }
@@ -79,6 +91,14 @@ evenOdd(5) => even, odd, even, odd, even, odd
 
 function evenOdd(number){
   //CODE BELOW HERE
+function evenOdd(number){
+  var ourArray = [];
+
+for (var i = 10; i+- > 0; i = 1) {
+  ourArray.push(i);
+}
+
+console.log(ourArray);
 
 
   //CODE ABOVE HERE
@@ -102,7 +122,14 @@ countUp(10) => 1,2,3,4,5,6,7,8,9,10
 
 function countUp(number){
   //CODE BELOW HERE
+function countUp(number){
+var ourArray = [];
 
+for (var i = 10; i < 0; i = 1) {
+  ourArray.push(i);
+}
+
+console.log(ourArray);
 
   //CODE ABOVE HERE
 }
@@ -123,7 +150,14 @@ countDown(10) =>10,9,8,7,6,5,4,3,2,1
 
 function countDown(number){
   //CODE BELOW HERE
+function countDown(number){
+  var ourArray = [];
 
+for (var i = 10; i > 0; i -= 1) {
+  ourArray.push(i);
+}
+
+console.log(ourArray);
 
   //CODE ABOVE HERE
 }
